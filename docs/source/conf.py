@@ -24,15 +24,15 @@ extensions = [
      'sphinx.ext.doctest',
      'sphinx.ext.autodoc',
      'sphinx.ext.autosummary',
+     "myst_parser",
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
-
-source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
 }
-source_suffix = ['.rst', '.md']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
