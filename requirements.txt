@@ -4,7 +4,7 @@ Babel==2.10.3
 beautifulsoup4==4.11.1
 certifi==2022.9.24
 charset-normalizer==2.0.12
-CommonMark==0.5.5
+commonmark==0.9.1
 docutils==0.17.1
 furo==2022.4.7
 idna==3.4
